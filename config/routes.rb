@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "photos#index"
   # Routes for the Company resource:
   # CREATE
   get "/companies/new", :controller => "companies", :action => "new"
